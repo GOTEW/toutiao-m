@@ -12,7 +12,9 @@
     <van-button type="warning">警告按钮</van-button>
     <van-button plain type="primary">朴素按钮</van-button>
     <van-button plain type="success">朴素按钮</van-button>
-
+    <div class="box">
+      <h1>hello word!</h1>
+    </div>
   </div>
 </template>
 <script>
@@ -20,4 +22,10 @@ export default {
   name: 'App'
 }
 </script>
-<style lang="less"></style>
+<style lang="less">
+.box {
+  width: 375px;
+  height: 64px;
+  background-color: pink;
+}
+</style>
